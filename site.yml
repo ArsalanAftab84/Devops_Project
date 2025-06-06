@@ -1,0 +1,26 @@
+- name: Configure web server
+  hosts: all
+  become: yes
+  tasks:
+    - name: Update apt cache
+      apt:
+        update_cache: yes
+
+    - name: Install Nginx
+      apt:
+        name: nginx
+        state: present
+
+    - name: Start Nginx
+      service:
+        name: nginx
+        state: started
+        enabled: yes
+
+    - name: Copy static website content
+      copy:
+        src: "/mnt/e/Sem_6/Devops/Project_files/static-website/"
+        dest: /var/www/html/
+        owner: www-data
+        group: www-data
+        mode: '0755'

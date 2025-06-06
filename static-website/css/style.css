@@ -1,0 +1,123 @@
+body {
+    background-color: #A78BFA;
+    font-family: "Montserrat", sans-serif;
+}
+
+h1{
+    margin-left: 43%;
+}
+
+.container{
+    position: relative;
+    background-color: white;
+    height: 520px;
+    width: 400px;
+    margin-top: 50px;
+    margin-left: 36%;
+    border: 2px solid white;
+    border-radius: 30px;
+}
+
+
+.profile{
+    position: absolute;
+    top: 70px;
+    left: 38%;
+}
+
+.profile img{
+    height: 100px;
+    width: 100px;
+}
+
+.card-body{
+    position: absolute;
+    top: 200px;
+    left: 28%;
+    margin-bottom: 5px;
+}
+
+.card-body p{
+    text-align: center;
+    margin-top: -0.5px;
+    font-weight: lighter;
+}
+
+.card-body strong{
+    text-align: center;
+    font-size: 20px;
+}
+
+.card-body2{
+    background-color: #fafafa;
+    position: absolute;
+    top: 250px;
+    left: 5%;
+    width: 90%;
+    border-radius: 10px;
+}
+
+.card-body2 p{
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.meet-time{
+    position: absolute;
+    background-color: rgba(0, 128, 96, .03);
+    top: 350px;
+    left: 5%;
+    height: 35px;
+    width: 90%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.meet-time img {
+    display: inline-block;
+    padding-top: 10px;
+    height: 20px;
+    width: 20px;
+    margin-right: 5px; 
+}
+
+.meet-time p {
+    display: inline-block;
+    color: #008050;
+    font-weight: bold;
+    margin: 0; 
+}
+
+
+.btn1{
+    position: absolute;
+    top: 400px;
+    left: 5%;
+    width: 90%;
+    height: 35px;
+    border-radius: 10px;
+    color: white;
+    background-color: #000;
+    font-weight: bolder;
+    font-size: 1rem;
+}
+
+.btn2{
+    position: absolute;
+    top: 450px;
+    left: 5%;
+    width: 90%;
+    height: 35px;
+    border: 0.5px solid;
+    border-radius: 10px;
+    background-color: white;
+    font-weight: bolder;
+    font-size: 1rem;
+}
+
+.btn2:hover{
+    border: 2px solid black;
+}
+
+

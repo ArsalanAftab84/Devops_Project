@@ -1,0 +1,11 @@
+resource_group_name = "rg-devops-pipeline-demo"
+location           = "East US"
+vm_name           = "vm-webserver-demo"
+vm_size           = "Standard_B1s"
+admin_username    = "azureuser"
+
+# SSH key path (this should point to your actual public key)
+ssh_public_key_path = "~/.ssh/id_rsa.pub"
+
+# Prefix for resource naming
+prefix = "devops-demo"
