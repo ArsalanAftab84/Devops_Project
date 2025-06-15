@@ -19,7 +19,7 @@
 
     - name: Copy static website content
       copy:
-        src: "/mnt/e/Sem_6/Devops/Project_files/static-website/"
+        src: "../static-website/"
         dest: /var/www/html/
         owner: www-data
         group: www-data
